@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'm_plus';
+  src: url('../../public/fonts/M_PLUS_Code_Latin/static/MPLUSCodeLatin-Regular.ttf') format('truetype');
+}
+
+
+.main {
+  font-family: 'm_plus', sans-serif;
+  
+  height: auto;
+  min-height: 90vh;
+  
+  background-color: #222;
+  color: white;
+
+  padding: 20px;
+  text-align: center;
+}
+
+.match_area{
+  border-color: white;
+  border-style: solid;
+  border-width: 1px 0px 3px 0px;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+
+.list {
+  align-items: center;
+  list-style-type: none;
+  /* border: 1px solid ; */
+  margin: 0px 5px 20px -40px;
+}
+
+.tree_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  gap: 50px;
+}
+
+.tree_items {
+  border-radius: 10px;
+  background-color: #111;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: left;
+}
+
+.participant-list {
+  list-style-type: none;
+}
+
+.list-divider {
+  border-top: 1px solid #ccc;
+  margin: 30px 0px 30px -40px;
+}
+
+.h3-divider {
+  border-top: 2px solid #ccc;
+  margin: 20px 0px 35px 0px;
+}
+
+.MbtnSubmit {
+  font-family: 'm_plus', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  background-color: #5DB7DE;
+  border: 0px solid;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.MbtnSubmit:hover {
+  background-color: #71d4ff;
+}
+
+
+
+

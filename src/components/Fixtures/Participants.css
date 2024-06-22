@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'm_plus';
+  src: url('../../../public/fonts/M_PLUS_Code_Latin/static/MPLUSCodeLatin-Regular.ttf') format('truetype');
+}
+
+.list {
+  list-style-type: none;
+}
+
+.list_p {
+  list-style-type: none;
+  background-color: #666;
+  border-radius: 5px;
+  margin: 10px 5px 10px -35px;
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+}
+
+.p_main{
+  /* height: 550px; */
+  
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.p_container {
+  padding: 25px;
+  border-radius: 5px;
+  text-align: left;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  align-content: center;
+}
+
+.p_items {
+  padding: 10px;
+}
+
+.h3_line {width: 200px;
+  border: 1px solid;
+}
+
+.p_btn{
+  font-family: 'm_plus', sans-serif;
+  background-color: white;
+  margin: 2px;
+  padding: 5px;
+  font-size: 0.8rem;
+  border: 1px solid white;
+  color: black;
+  border-radius: 5px;
+}
+
+.p_btn:hover{
+  color: white;
+  background-color: #004E89;
+}
+
+.p_btn:active,
+.p_btn:focus {
+    background-color: #EDCD1D; 
+    /* background-color: #548C2F;  */
+}
+

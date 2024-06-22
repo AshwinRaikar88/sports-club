@@ -1,0 +1,122 @@
+@font-face {
+  font-family: 'm_plus';
+  src: url('../../../public/fonts/M_PLUS_Code_Latin/static/MPLUSCodeLatin-Regular.ttf') format('truetype');
+}
+
+.fixtures-container {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 200px;
+}
+  
+.fixture {
+  border-color: white;
+  border-style: solid;
+  border-width: 1px 1px 3px 1px;
+  border-radius: 10px;
+
+  /* border: 1px solid #ccc;
+  border-radius: 5px;
+    */
+  
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 15vw;
+}
+
+.fixture:active {
+  border-width: 1px 1px 1px 1px;
+}
+  
+.btn{
+  font-family: 'm_plus', sans-serif;
+  background-color: orange;
+  margin: 2px;
+  padding: 5px;
+  font-size: 0.8rem;
+  border: 1px solid;
+  color: black;
+  border-radius: 5px;
+}
+  
+.btn:hover{
+  background-color: #EDCD1D;
+}
+  
+.btn:active,
+.btn:focus {
+  background-color: #EDCD1D; 
+    /* background-color: #548C2F;  */
+}
+
+.list {
+  list-style-type: none;
+}
+
+.modal {
+  box-shadow: 0px 0px 4px 2px #111;
+  margin-top: -50px;
+  padding: 10px;
+  color: white;
+  background-color: #555;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 1;
+}
+
+.modal-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 10px 1% 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.input_p {
+  font-family: 'm_plus', sans-serif;
+  font-size: 16px;
+  
+  width: 100px;
+  text-align: center;
+
+  color: white;
+  background-color: #222;
+  border: 1px solid #222;
+  border-radius: 15px;
+
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.input_p:focus {
+  outline: none !important;
+  border-color: #719ECE;
+}
+
+.close {
+  position: absolute;
+  margin-left: 70%;
+  margin-top: -220px;
+  background-color: red;
+  color: white;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  opacity: 0.6;  
+ 
+}
+
+.close:hover {
+ opacity: 1;  
+}
+

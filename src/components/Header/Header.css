@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'futurist';
+  src: url('../../../public/fonts/forgotten-futurist/forgotten futurist bd it.otf') format('opentype');
+}
+
+
+.header {
+    font-family: 'futurist', sans-serif;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header_link{
+  color: black;
+  text-decoration: none;
+}

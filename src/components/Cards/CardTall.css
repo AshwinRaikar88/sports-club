@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'm_plus';
+    src: url('../../../public/fonts/M_PLUS_Code_Latin/static/MPLUSCodeLatin-Regular.ttf') format('truetype');
+  }
+  
+  
+.CT_main {
+    position: relative;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    border: 1px solid #555;
+    background-color: white;
+}
+
+.CT_main:hover {
+    /* scale: 1.01; */
+    opacity: 0.95;
+}
+
+
+.CT_d1 {
+    position: relative;
+    z-index: 1;
+    width: 290px;
+    height: 490px;
+    border-radius: 10px;
+    background-color: white;
+
+    overflow: hidden;
+}
+
+
+.CT_title {
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    margin: -126px 0px 0px 32px;
+    position: absolute;
+    z-index: 3;
+}
+
+
+.noise { 
+    position: absolute;
+    z-index: 2;
+    /* width: 100%;  */
+    height: 100%; 
+    opacity: 0;
+    border-radius: 5px; /* Add smooth transition effect */
+    transition: opacity 1.2s ease;
+}
+
+.CT_d1:hover .noise {
+    opacity: 0.1;
+    border-radius: 5px;
+}
+
+
+
+.img { 
+    /* width: 100%;  */
+    height: 100%; 
+    opacity: 0.95;
+    border-radius: 5px;
+    transition: transform 1s ease-in; /* Add smooth transition effect */
+    
+}
+
+
+.CT_d1:hover .img {
+    transform: scale(1.2) translateX(-50px); /* Zoom-in effect on hover */
+    filter: grayscale(0%) contrast(100%) brightness(120%);    
+}
+
+

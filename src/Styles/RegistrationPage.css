@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'm_plus';
+    src: url('../../public/fonts/M_PLUS_Code_Latin/static/MPLUSCodeLatin-Regular.ttf') format('truetype');
+}
+
+.registration_area {
+    display: flex;
+    font-family: 'm_plus', sans-serif;
+    height: auto;
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    align-items: flex-start;
+    justify-content: center;
+    
+    padding: 50px;
+}

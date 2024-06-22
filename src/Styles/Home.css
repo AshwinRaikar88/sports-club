@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'm_plus';
+  src: url('../../public/fonts/M_PLUS_Code_Latin/static/MPLUSCodeLatin-Regular.ttf') format('truetype');
+}
+  
+  
+.home_area {
+  display: flex;
+  gap: 20px;
+  font-family: 'm_plus', sans-serif;
+  height: 90vh;
+  background-color: #222;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
