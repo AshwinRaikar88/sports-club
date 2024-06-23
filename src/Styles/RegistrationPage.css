@@ -6,7 +6,7 @@
 .registration_area {
     display: flex;
     font-family: 'm_plus', sans-serif;
-    height: auto;
+    min-height: 80vh;
     background-color: #222;
     color: white;
     text-align: center;

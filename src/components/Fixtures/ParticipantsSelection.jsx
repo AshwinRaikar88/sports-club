@@ -11,7 +11,7 @@ function ParticipantSelection({ participants, selectedParticipants, onSelection 
     <div className='p_main'>
 
       <div className='p_container'>    
-        <h3>Players</h3>
+        <h2>Participants</h2>
         <span className='h3_line'></span>
         <div className='p_items'>
           <ul>

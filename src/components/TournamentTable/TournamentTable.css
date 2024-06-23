@@ -1,0 +1,25 @@
+.tournament-table {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .round-section {
+    margin-bottom: 30px;
+  }
+  
+  table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+  }
+  
+  th, td {
+    width: 500px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  th {
+    background-color: #e99700;
+  }
+  

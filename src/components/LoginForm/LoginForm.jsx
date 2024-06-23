@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import { useNavigate  } from 'react-router-dom';
-
+import React, { useState, useContext } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { AuthContext } from '../../context/AuthContext'; // Adjust the import path as necessary
 import './LoginForm.css';
 import '../Fixtures/Participants.css';
 
@@ -8,8 +8,8 @@ function LoginForm() {
   const [userName, setUserName] = useState('');
   const [password, setPassword] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
-  const [data, setData] = useState([]); // Array to store form data
   const navigate = useNavigate();
+  const { setIsLoggedIn } = useContext(AuthContext);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -24,15 +24,13 @@ function LoginForm() {
       return;
     }
 
-    // Check if username and password are 'admin'
+    // Check if username and password are correct
     if (userName === 'ShlokPW' && password === 'Pawaskar@123') {
-      // Redirect to the '/Home' route
-      navigate('/Home');
+      setIsLoggedIn(true);  // Set the global login state to true
+      navigate('/Home');    // Redirect to the '/Home' route
     } else {
-      // If not admin, set an error message
       setErrorMessage('Invalid username or password');
     }
-
   };
 
   return (
@@ -45,7 +43,6 @@ function LoginForm() {
       
       <div className='login_data'>
       <form onSubmit={handleSubmit}>
-        
         <label htmlFor="userName">User Name</label>
         <input
           type="text"

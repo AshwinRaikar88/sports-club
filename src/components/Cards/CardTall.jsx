@@ -13,7 +13,6 @@ function CardTall({title, img_name, link}) {
         <h2 className='CT_title'>{title}</h2>
       </div>
       </Link>
-      
     </div>
   );
 }  

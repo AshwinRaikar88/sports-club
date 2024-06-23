@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'm_plus';
+    src: url('../../public/fonts/M_PLUS_Code_Latin/static/MPLUSCodeLatin-Regular.ttf') format('truetype');
+  }
+    
+    
+  .history_area {
+    display: flex;
+    gap: 20px;
+    font-family: 'm_plus', sans-serif;
+    height: 90vh;
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  body::-webkit-scrollbar {
+    display: none;
+  }
+
+
+  .btnUpload {
+    font-family: 'm_plus', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: #5DB7DE;
+    border: 0px solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+.btnUpload:hover {
+    background-color: #71d4ff;
+}
